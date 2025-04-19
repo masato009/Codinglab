@@ -1,0 +1,105 @@
+* {
+    margin: auto;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: #6d6d6d;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    padding: 20px;
+}
+
+li {
+    display: inline;
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+}
+
+li>ul {
+    display: none;
+}
+
+a:link {
+    color: #fff;
+}
+
+a:hover {
+    color: #6d6d6d;
+}
+
+li:hover ul {
+    display: block;
+    position: absolute;
+    margin-right: 130px;
+}
+
+li:hover ul li a:link {
+    display: block;
+}
+
+.Codinglab {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 200px;
+    color: #f1eaea;
+}
+
+h2 {
+    font-size: 40px;
+    color: #f1eaea;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #fff;
+}
+
+#not {
+    border: 1px solid #fff;
+    margin: 20px;
+    background-color: rgb(105, 105, 94);
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#one {
+    border: 1px solid #fff;
+    margin: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+
+.home {
+    font-weight: bold;
+}
+
+.Create {
+
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+.sad {
+    width: 800px;
+    height: 500px;
+
+}
