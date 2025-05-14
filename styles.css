@@ -75,3 +75,12 @@ ul {
     font-family: Arial, Helvetica, sans-serif,unset;
     text-decoration: none;
   }
+  
+  a:link,a:visited{
+    color: #fff;
+  }
+
+  a:hover,a:active{
+    color: #6d6d6d;
+  }
+  

@@ -29,11 +29,11 @@ li>ul {
     display: none;
 }
 
-a:link {
+a:link,a:visited {
     color: #fff;
 }
 
-a:hover {
+a:hover,a:active {
     color: #6d6d6d;
 }
 
