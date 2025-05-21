@@ -11,9 +11,15 @@ body {
     background-color: #6d6d6d;
 }
 
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end;          
     background-color: black;
     padding: 20px;
 }
@@ -29,11 +35,11 @@ li>ul {
     display: none;
 }
 
-a:link,a:visited {
+a:link {
     color: #fff;
 }
 
-a:hover,a:active {
+a:hover {
     color: #6d6d6d;
 }
 
@@ -93,16 +99,20 @@ p {
 }
 
 .Create {
-
+    max-width: 800px;
     text-align: center;
 }
 
 form {
     text-align: center;
+    max-width: 800px;
 }
 
 .sad {
     width: 800px;
     height: 500px;
+}
 
+input{
+    max-width: 800px;
 }
